@@ -1,0 +1,23 @@
+.drop {
+  background: linear-gradient(to right, #eaeaea, #4eb8ef);
+  top: 20px;
+  width: 15px;
+  height: 15px;
+  opacity: 0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 1em 0.2em 1em 1em;
+  animation: drop 5s linear infinite;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0.2;
+    transform: translateY(0) rotate(-40deg);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(94vh) rotate(-40deg);
+  }
+}
