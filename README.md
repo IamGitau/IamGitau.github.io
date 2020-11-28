@@ -1,10 +1,11 @@
-# Application
+# STATIC
 
-[![unspash image](https://images.unsplash.com/photo-1603436326379-67438d1e8fcd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)](https://unsplash.com)
+**This directory is not required, you can delete it if you don't want to use it.**
 
-My portfolio website. This application will showcase my work as a developer.
+This directory contains your static files.
+Each file inside this directory is mapped to `/`.
+Thus you'd want to delete this README.md before deploying to production.
 
-### Author
-- [Joseph Gitau](https://github.com)
-- Full stack web developer
-- **Built with** [nuxtjs](https://nuxtjs.org)
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/assets#static).
